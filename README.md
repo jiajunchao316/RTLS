@@ -1,4 +1,4 @@
-~# RTLS
+# RTLS
 This is a demo visualization software for indoor-location, the GUI was designed and achievw by pyqt.
 In this project the loction data was provide by [EKV1000](http://www.decawave.com/products/evk1000-evaluation-kit)
 The main location algorithm is geometric localization algorithm.
@@ -20,12 +20,12 @@ The demo include four parts.
   for your demand.
 * uart
   * uart.py
-  this class is used for search the equipment that have connect to computer.
+   this file is design for search the equipment that have connect to computer.
 * tabs
   * AnchCorrection.py
-  for collect the node coordinates.
+   this file is design for collect the node coordinates.
   * settingTab.py
-  for the basic settings.
+   this file is for the basic settings design.
 * draw
   * draw.py
-  define the way how to show the mobile node and define the way for coordinate transformation.
+   in this file you could define the way how to show the mobile node and define the way for coordinate transformation.
